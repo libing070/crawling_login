@@ -1,0 +1,23 @@
+.main_toppic .picbox img{
+    width:100%
+}
+.main_editor .title{
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main_editor  .W_fl{
+    float: left;
+}
+.main_editor  .W_fr{
+float: right;
+}
+
+.main_editor  .W_fl .W_face_radius{
+    border-radius: 50%;
+}
+.main_editor .WB_editor_iframe_new{
+    padding-top: 40px;
+}
+

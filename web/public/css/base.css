@@ -1,0 +1,12 @@
+.navbar {
+	margin-top: 2%;
+}
+.container .logo{
+	padding-top: 20px;
+	font-size: 27px;
+	font-family: cursive;
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "crawling",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "cron": "^1.7.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "fs-": "^1.0.0",
+    "html-entities": "^1.2.1",
+    "http-errors": "~1.6.3",
+    "log4js": "^4.2.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "superagent": "^5.0.5"
+  }
+}

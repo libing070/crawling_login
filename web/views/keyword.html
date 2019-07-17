@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关键字抓取</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="/css/common/bootstrap-theme.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/common/bootstrap.min.css" />
+<!-- CDN 引入vue 和 axios -->
+<link rel="icon" href="data:image/ico;base64,aWNv">
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<style>
+    body{
+        text-align: center;
+    }
+     .inp{
+         width: 300px;
+         /*border: 1px solid #a3a3a3;*/
+         margin: auto;
+         line-height: 30px;
+     }
+    .inp input{
+        line-height: 30px;
+       margin-right: 10px;
+    }
+    .inp button{
+        line-height: 30px;
+
+    }
+</style>
+<body>
+<div id="app">
+<h2>关键字</h2>
+     <div class="inp">
+         <input id="searchInput" v-model="keyword"  type="text" placeholder="关键字抓取"/><button @click="searchBtn" id="searchBtn">检索</button>
+         <div>{{searchkeywordSum}}</div>
+     </div>
+</div>
+</body>
+<script src="/js/common/jquery-1.11.2.min.js?v=1"></script>
+<script src="/js/common/bootstrap.min.js"></script>
+<script src="/js/keyword.js"></script>
+</html>

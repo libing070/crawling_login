@@ -1,0 +1,22 @@
+.list .left-pic{
+    width: 158px;
+    height: 102px;
+}
+.list .left-pic img{
+    width: 80%;
+}
+.list .title{
+    margin-bottom: 20px;
+}
+.list .title h4{
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list .icon span{
+    margin-left: 20px;
+}
+.list .icon img{
+    width: 20px;
+    border-radius: 50px;
+}
